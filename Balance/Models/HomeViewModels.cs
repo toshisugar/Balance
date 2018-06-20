@@ -9,4 +9,11 @@ namespace Balance.Models
     {
         public string Name { get; set; }
     }
+
+    public class HomeBmiViewModel
+    {
+        public double Weight { get; set; }
+        public double Height { get; set; }
+        public double Bmi { get; set; }
+    }
 }

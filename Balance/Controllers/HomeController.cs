@@ -39,5 +39,19 @@ namespace Balance.Controllers
         {
             return View(vm);
         }
+
+        public ActionResult Bmi()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Bmi(HomeBmiViewModel vm)
+        {
+            return View(vm);
+        }
+        
+        
+        
     }
 }
