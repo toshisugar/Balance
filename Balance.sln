@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance", "Balance\Balance.csproj", "{A9370F78-6D6B-4A56-8A3F-7DD363CDEC24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9370F78-6D6B-4A56-8A3F-7DD363CDEC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9370F78-6D6B-4A56-8A3F-7DD363CDEC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9370F78-6D6B-4A56-8A3F-7DD363CDEC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9370F78-6D6B-4A56-8A3F-7DD363CDEC24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26CE3126-BB1F-4DB3-B114-274E44DBD1EA}
+	EndGlobalSection
+EndGlobal
