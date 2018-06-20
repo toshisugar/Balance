@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Balance.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -25,6 +26,18 @@ namespace Balance.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Input()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Input(HomeInputViewModel vm)
+        {
+            return View(vm);
         }
     }
 }
